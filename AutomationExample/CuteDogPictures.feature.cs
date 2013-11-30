@@ -77,7 +77,9 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("I go to url http://www.duckduckgo.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.And("I search for cute dog pictures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("I search for cute dog pictures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 10
+ testRunner.Then("I see that the first 50 links have the words cute,dog,pictures in them", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

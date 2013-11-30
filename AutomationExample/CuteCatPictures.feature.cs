@@ -19,23 +19,23 @@ namespace AutomationExample
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Example")]
-    [NUnit.Framework.CategoryAttribute("mytag")]
-    public partial class ExampleFeature
+    [NUnit.Framework.DescriptionAttribute("Example Cat")]
+    [NUnit.Framework.CategoryAttribute("CuteCatPictures")]
+    public partial class ExampleCatFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "Feature1.feature"
+#line 1 "CuteCatPictures.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Example", "In demonstrate I am capable of designing a solution in Selenium Webdriver and Spe" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Example Cat", "In demonstrate I am capable of designing a solution in Selenium Webdriver and Spe" +
                     "cflow\r\nAs a person partial to cats\r\nI want to look for cat pictures", ProgrammingLanguage.CSharp, new string[] {
-                        "mytag"});
+                        "CuteCatPictures"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -77,7 +77,9 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("I go to url http://www.duckduckgo.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.And("I search for cute cat pictures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("I search for cute cat pictures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 10
+ testRunner.Then("I see that the first 50 links have the words cute,cat,pictures in them", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

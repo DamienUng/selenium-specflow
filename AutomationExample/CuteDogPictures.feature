@@ -6,4 +6,5 @@ Feature: Example Dog
 	
 Scenario: Look for cute dog pictures on duckduckgo.com
 	Given I go to url http://www.duckduckgo.com
-	And I search for cute dog pictures
+	When I search for cute dog pictures
+	Then I see that the first 50 links have the words cute,dog,pictures in them

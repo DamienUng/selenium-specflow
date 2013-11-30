@@ -6,4 +6,5 @@ Feature: Example Cat
 	
 Scenario: Look for cute cat pictures on duckduckgo.com
 	Given I go to url http://www.duckduckgo.com
-	And I search for cute cat pictures
+	When I search for cute cat pictures
+	Then I see that the first 50 links have the words cute,cat,pictures in them

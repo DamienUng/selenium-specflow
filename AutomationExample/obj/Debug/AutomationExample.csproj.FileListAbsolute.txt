@@ -1,4 +1,3 @@
-C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.csprojResolveAssemblyReference.cache
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\bin\Debug\AutomationExample.dll.config
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\bin\Debug\AutomationExample.dll
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\bin\Debug\AutomationExample.pdb
@@ -9,3 +8,4 @@ C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExampl
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\bin\Debug\WebDriver.xml
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.dll
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.pdb
+C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.csprojResolveAssemblyReference.cache
