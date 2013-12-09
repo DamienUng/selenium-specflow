@@ -20,8 +20,8 @@ namespace AutomationExample
 		
 		[When(@"I search for (.*)")]
 		public void SearchFor(string searchTerm) {
-			Events.Driver.FindElementByXPath(searchXpath).SendKeys(searchTerm);
-			Events.Driver.FindElementByXPath(searchInputButton).Click();
+			Events.Driver.FindElement(By.XPath(searchXpath)).SendKeys(searchTerm);
+			Events.Driver.FindElement(By.XPath(searchInputButton)).Click();
 		}
 		
 		[Then(@"I see that the first (\d+) links have the words (.*) in them")]
@@ -29,11 +29,11 @@ namespace AutomationExample
 			
 			var searchTerms = searchTerm.Split(',');
 			
-			while (Events.Driver.FindElementsByXPath(searchResultLinks).Count < 50) {
-				Events.Driver.Keyboard.PressKey(OpenQA.Selenium.Keys.End);
+			while (Events.Driver.FindElements(By.XPath(searchResultLinks)).Count < 50) {
+				Events.Driver.FindElement(By.XPath("//html")).SendKeys(OpenQA.Selenium.Keys.End);
 			}
 			
-			var linkElements = Events.Driver.FindElementsByXPath(searchResultLinks);
+			var linkElements = Events.Driver.FindElements(By.XPath(searchResultLinks));
 
 			for (var i=0; i < linkCount; i++) {
 				Console.WriteLine("link index:" + i + "\nlink text:" + linkElements[i].Text);

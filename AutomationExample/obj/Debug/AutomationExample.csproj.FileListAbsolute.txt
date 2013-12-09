@@ -9,3 +9,15 @@ C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExampl
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.dll
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.pdb
 C:\Users\eung\Documents\SharpDevelop Projects\AutomationExample\AutomationExample\obj\Debug\AutomationExample.csprojResolveAssemblyReference.cache
+D:\Work\selenium-specflow\AutomationExample\obj\Debug\AutomationExample.csprojResolveAssemblyReference.cache
+D:\Work\selenium-specflow\AutomationExample\obj\Debug\AutomationExample.dll
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\AutomationExample.dll.config
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\AutomationExample.dll
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\AutomationExample.pdb
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\nunit.framework.dll
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\TechTalk.SpecFlow.dll
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\WebDriver.dll
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\nunit.framework.xml
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\WebDriver.xml
+D:\Work\selenium-specflow\AutomationExample\obj\Debug\AutomationExample.pdb
+D:\Work\selenium-specflow\AutomationExample\bin\Debug\IEDriverServer.exe
